@@ -1,10 +1,1 @@
- Volume in drive C has no label.
- Volume Serial Number is 5EF6-1744
-
- Directory of C:\Users\USER\Desktop\my
-
-16-06-2022  22:39    <DIR>          .
-16-06-2022  22:39    <DIR>          ..
-16-06-2022  22:39                 0 test1.txt
-               1 File(s)              0 bytes
-               2 Dir(s)  54,069,051,392 bytes free
+change 1

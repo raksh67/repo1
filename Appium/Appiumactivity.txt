@@ -1,0 +1,73 @@
+Calculator
+
+"deviceName": "Redmi",
+"deviceId": "d3d9cc1b",
+"platformName": "Android",
+"platformVersion": "9",
+"appPackage": "com.miui.calculator",
+"appActivity": ".cal.AlllnOneCalculatorActivity"
+
+
+Calender
+
+"deviceName": "Redmi",
+"deviceId": "d3d9cc1b",
+"platformName": "Android",
+"platformVersion": "9",
+"appPackage": "com.android.calendar",
+"appActivity": ".homepage.AlllnOneActivity"
+
+
+Camera
+
+"deviceName": "Redmi",
+"deviceId": "d3d9cc1b",
+"platformName": "Android",
+"platformVersion": "9",
+"appPackage": "com.android.camera",
+"appActivity": ".Camera"
+
+Clock
+
+"deviceName": "Redmi",
+"deviceId": "d3d9cc1b",
+"platformName": "Android",
+"platformVersion": "9",
+"appPackage": "com.android.deskclock",
+"appActivity": "com.android.alarmclock.AlarmClock"
+
+Gallery
+
+"deviceName": "Redmi",
+"deviceId": "d3d9cc1b",
+"platformName": "Android",
+"platformVersion": "9",
+"appPackage": "com.miui.gallery",
+"appActivity": ".picker.PickGalleryActivity"
+
+ApiDemos
+"deviceName": "Redmi",
+"deviceId": "d3d9cc1b",
+"platformName": "Android",
+"platformVersion": "9",
+"appPackage": "io.appium.android.apis",
+"appActivity": ".ApiDemos"
+
+touch screen
+"deviceName": "Redmi",
+"deviceId": "d3d9cc1b",
+"platformName": "Android",
+"platformVersion": "9",
+"appPackage": "jp.rallwell.siriuth.touchscreentest",
+"appActivity": ".TouchScreenTestActivity"
+
+general store
+"deviceName": "Redmi",
+"deviceId": "d3d9cc1b",
+"platformName": "Android",
+"platformVersion": "9",
+"appPackage": "com.androidsample.generalstore",
+"appActivity": ".SplashActivity"
+
+medPlusApp
+14:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-202214:10 06-05-2022

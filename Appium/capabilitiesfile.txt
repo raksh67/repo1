@@ -1,0 +1,8 @@
+Device name-Redmi
+Platform version-9 
+Platform name-Android
+Device id-d3d9cc1b
+
+
+
+d3d9cc1b        device

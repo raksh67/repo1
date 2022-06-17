@@ -1,0 +1,121 @@
+1.write a generic method to perform rightclick on a webelement
+
+public static void performrightclick(WebDriver driver,WebElement element){
+Actions action =new Action(driver);
+action.contextClick(element).perform();
+
+2.write generic method to read data from excel sheet
+
+public static String ReadData(String filepath,String sheetname,int rownum,int cellnum){
+FileInputStream fis =new FileInputStream(filepath);
+Workbook wb=WorkbookFactory.create();
+Sheet sh=wb.getSheet(sheetname)
+Row row=sh.getRow(rownum);
+Cell cell=row.getCell(cellnum);
+String data=cell.getStringcellValue();
+wb.close();
+
+3.generic method to deselect a dropdown
+4.generic methoc to select a drowdown
+
+3.public static deselectdropdown(Webelement element,String value){
+
+Select select=new Select(element);
+select.deselectByValue(value);
+
+}
+
+3.public static selectdropdown(Webelement element,String value){
+
+Select select=new Select(element);
+select.selectByVisibleText(value);
+
+}
+
+5.select class methods
+Select select=new Select(element)
+->select.selectByVisibleText()
+->select.selectByValue()
+->select.selectByIndex()
+->select.getFirstSelectOptions()
+->select.getOptions()
+->selectdeselectAll()
+->select.isMultiple()
+
+
+6.username n password witout sendkeys
+-->we can use through javaScriptExecutor
+JavaScriptExecutor jse=(JavaScriptExecutor)driver;
+jse.executeScript
+
+7.Login Exceptions
+NoSuchElementException
+StaleElementReferenceException
+IllegalArguementException
+ElementClickInterruptedException
+
+8.save button with same xpath
+->driver.findElement(By.xpath
+
+
+9.Explain your framework
+Framework is a collection of reusable components which makes automation engineer life easy
+In my framework i have used several types of framework so my framework is a hybrid framewrk,where i have used Datadriven framewrk bcoz in my project there were huge 
+datas to be maintained,i was not hardcoding the data i used to store it in external sources.
+and i used modular driven framewrk for categorizing my testscript based on modules..ie for one module we used to create 1 testcscript and run.
+also used method driven framewrk to get resusable methods from the generic libraries
+i have used several components in my framewrk
+
+testdata--we used to not hadrcode the data we used to store it in external sources like property file or excelsheet
+resources--we used resources to get the driver executable files like chromedriver.exe,firefox.exe
+generic utility- by using generic utility we achieved code resuablility,code optimization where all the reusable methods can be used
+->Base class-   we write all the configuration annotations inside base class like open browser close browser,login ,logout and extend all the testscripts to Base class
+->webdriverutility-- we use this utility to access the reusable methods which are specific to webdriver actions
+->javautility--we use this to access the methods which are specific to java 
+->fileutility --we use this utility to fetch th data from property file
+->excelutility--we use this utility to fetch the data from excel sheet
+->Ipathconstant--it is used to store all the filepaths ,it is an interface
+->ListenersImplementation--it is a implementation class of itestlistener interface where we provide implementation for onTestfailure method to take screenshot
+->RetryAnalyser--it is an implementation class of IretryAnalyser interface where we provide implementation to rety() to re ren the failed testscripts
+Objectrepository--pom class is used to store the webelemets and business libraries,we achieve encapsulation 
+testscript--we write test scripts using testng annotations 
+testng.xml--it is written using xml language ,we get this file by converting the test script to .xml
+reports--it will contain a result of particular test execution
+screenshots-which stores all the screenshots
+maven-it is a build management tool,it is easy to handle dependency
+jenkins-execute selenium testscripts in testing environment
+
+10.wajp find the diff betn max and min 
+public static void main(String []args){
+	int a[]={4,1,8,5,2};
+	for(int i=0;i<a.length;i++)
+	{
+	for(int j=i+1;j<a.length;j++)
+	{
+	if(a[i]>a[j])
+	{
+	int temp=a[i];
+	a[i]=a[j];
+	a[j]=temp;
+	}
+	}
+	}
+	
+	system.out.println(a[0]);
+	system.out.println(a[a.lenth-1]);
+	
+	int diff=(a[a.lenth-1]-a[0]);
+system.out.println(diff);
+
+}
+}
+
+11.	System.setProperty(" ")
+	WebDriver driver=new ChromeDriver();
+	driver.manage().window().Maximize();
+	driver.manage().timeouts().implicitlyWait(10,Timeunit.SECONDS);
+	driver.get("url");
+	Actions actions=new Actions(driver);
+	actions.moveToElement(driver.findElement(By.xpath("")).perform();//E1
+	driver.findElement(By.xpath("")).click();//A1
+	String winID = driver.getWindowHandles();
